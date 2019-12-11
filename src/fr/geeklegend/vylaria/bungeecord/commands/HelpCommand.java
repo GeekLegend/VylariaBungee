@@ -1,4 +1,4 @@
-package fr.geeklegend.vylaria.bungeecord.commands.help;
+package fr.geeklegend.vylaria.bungeecord.commands;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -26,11 +26,12 @@ public class HelpCommand extends Command
 		if (args.length == 0)
 		{
 			player.sendMessage(new TextComponent(" "));
-			player.sendMessage(new TextComponent("§6/report <joueur> - Signaler un joueur."));
-			player.sendMessage(new TextComponent("§6/bug <bug> - Signaler un bug."));
-			player.sendMessage(new TextComponent("§6/msg <joueur> <message> - Envoyer un message privé."));
-			player.sendMessage(new TextComponent("§6/ignore - Ignorer les messages privés."));
-			player.sendMessage(new TextComponent("§6/lobby - Retourner sur le hub."));
+			player.sendMessage(new TextComponent("§e===== §e§lAide §e====="));
+			player.sendMessage(new TextComponent("§e/report <joueur> §7- Signaler un joueur."));
+			player.sendMessage(new TextComponent("§e/bug <bug> §7- Signaler un bug."));
+			player.sendMessage(new TextComponent("§e/msg <joueur> <message> §7- Envoyer un message privé."));
+			player.sendMessage(new TextComponent("§e/ignore §7- Ignorer les messages privés."));
+			player.sendMessage(new TextComponent("§e/lobby §7- Retourner sur le hub."));
 			player.sendMessage(new TextComponent(" "));
 		}
 	}

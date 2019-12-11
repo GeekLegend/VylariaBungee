@@ -19,8 +19,8 @@ public class PostLoginListener implements Listener
 	{
 		ServerPing serverPing = event.getResponse();
 		
-		serverPing.setDescription("§6Vylaria §f[§e1.8 ➲ §e1.13§f] §7| §eServeur Mini-Jeux\n§bSuivez l'actualité sur Twitter: @Vylaria_Fr ");
-		serverPing.setVersion(new ServerPing.Protocol("§e1.8+", serverPing.getVersion().getProtocol()));
+		serverPing.setDescription("§6Vylaria §f[§e1.8 ➲ §e1.13§f] §7| §6Sheepwars, UHC, ...\n          §bDiscord: discord.gg/rsW8RjG ");
+		serverPing.setVersion(new ServerPing.Protocol("§b1.8+", serverPing.getVersion().getProtocol()));
 		
 		try {
 			serverPing.setFavicon(Favicon.create(ImageIO.read(new File("favicon.png"))));

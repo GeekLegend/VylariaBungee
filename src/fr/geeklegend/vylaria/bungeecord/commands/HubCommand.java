@@ -1,4 +1,4 @@
-package fr.geeklegend.vylaria.bungeecord.commands.hub;
+package fr.geeklegend.vylaria.bungeecord.commands;
 
 import net.md_5.bungee.BungeeCord;
 import net.md_5.bungee.api.CommandSender;

@@ -1,4 +1,4 @@
-package fr.geeklegend.vylaria.bungeecord.commands.bug;
+package fr.geeklegend.vylaria.bungeecord.commands;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
